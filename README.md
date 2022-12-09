@@ -1,6 +1,5 @@
 # Key pair and Vault
 
-- Create a cluster (1 ansible and 1 client) and get your TP-6 code from your github
 - Create a files directory which will contain a secrets folder which will contain a credentials.vault file
 - Move the variable containing the admin password variable into this file
 - Then you will encrypt this file with the ansible-vault encrypt command
